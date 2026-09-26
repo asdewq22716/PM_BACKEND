@@ -11,6 +11,9 @@ import { FncDB } from './database/fnc-db.service';
 // HTTP Tools
 import { BaseApiService } from './http/base-api.service';
 
+// Mail Tools
+import { MailService } from './mail/mail.service';
+
 // Auth Tools
 import { JwtStrategy } from './auth/strategies/jwt.strategy';
 import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
@@ -38,6 +41,7 @@ import { OptionalJwtAuthGuard } from './auth/guards/optional-jwt-auth.guard';
     DbPoolService,
     FncDB,
     BaseApiService,
+    MailService,
     JwtStrategy,
     JwtAuthGuard,
     OptionalJwtAuthGuard,
@@ -46,6 +50,7 @@ import { OptionalJwtAuthGuard } from './auth/guards/optional-jwt-auth.guard';
     DbPoolService,
     FncDB,
     BaseApiService,
+    MailService,
     JwtStrategy,
     JwtAuthGuard,
     OptionalJwtAuthGuard,
@@ -55,3 +60,4 @@ import { OptionalJwtAuthGuard } from './auth/guards/optional-jwt-auth.guard';
   ],
 })
 export class ToolsAkModule {}
+

@@ -10,11 +10,15 @@ export * from './database';
 // HTTP Tools
 export * from './http/base-api.service';
 
+// Mail Tools
+export * from './mail';
+
 // Response Tools
 export * from './response/global-response';
 
 // Upload Tools
 export * from './upload/file-upload.util';
 
-// Utilities
-export * from './utils/fnc-custom';
+// Utilities (Date, Thai Format, Crypto, String, MailFormat, CSV, Pagination)
+export * from './utils';
+
